@@ -1,0 +1,25 @@
+cd [directoryname]       :switches to folder
+cd ..                    :moves one folder up 
+cd /home/user/           :switches to folder /user/
+cd ~                     :switches to highes folder or flashdrive
+pwd                      :shows current path
+ls                       :shows files in path
+ls -a                    :shows hidden files as well
+ls -l                    :shows files in path but with more information
+ls *.txt                 :lists all txt files
+mkdir [project]          :[make directory project] creates a file with the name [project] in the current path
+mkdir -p my_website1/test:creates the folder [my_website1] and the subfolder [test]
+mkdir .h_dir             :creates the hidden file [h_dir]
+touch file.txt           :creates the text file [file.txt]
+rm -r my_website         :removes folder [my_website] you need -r to remove folder
+rm file.txt              :removes the text file [file.txt]
+mv *.txt animals         :moves all .txt files into the folder [animals]
+mv index.html mouse.html :index.html gets the new name mouse.html
+cp my_test.html copy_test.html: copy [my_test.html], The copy gets the name [copy_test.html]
+cp copy_test.html animals/ant.html :copy [copy_test.html] into the folder animals and the copy gets the name ant.html
+cp animals/*txt                    :copy all txt files into the folder animals, all copys get the same name
+
+nano project_ideas.txt             :open the file [project_ideas.txt]
+tail project_ideas.txt             :show in command line what is in the file [project_ideas.txt]
+tail -f project_ideas.txt          :shows also every update in file
+cat project_ideas.txt              :shows in command line what is in file
